@@ -1,0 +1,86 @@
+body.path-local-training_architecture .trainingarchitecture-container ul {
+    list-style: none;
+    margin-left: -20px;
+}
+
+body.path-local-training_architecture .trainingarchitecture-delete-selection {
+    color: white;
+    background-color: #ca3120;
+}
+
+body.path-local-training_architecture .trainingarchitecture-delete-selection:hover {
+    color: white;
+}
+
+body.path-local-training_architecture .trainingarchitecture-delete-selection:not([disabled]):hover {
+    background-color: #ac2b1d;
+    color: white;
+}
+
+body.path-local-training_architecture .trainingarchitecture-btn-container {
+    /* display: flex; */
+    justify-content: end;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+body.path-local-training_architecture .trainingarchitecture-tr-selected-lu {
+    background-color: #d48282 !important;
+    color: black !important;
+}
+
+body.path-local-training_architecture .trainingarchitecture-tr-selected-lu:hover {
+    background-color: #d48282 !important;
+    color: black !important;
+}
+
+body.path-local-training_architecture .trainingarchitecture-tr-linked-lu {
+    color: #ec3737 !important;
+    font-weight: bold;
+}
+
+body.path-local-training_architecture .trainingarchitecture-tr-linked-lu:hover {
+    color: #ec3737 !important;
+    font-weight: bold !important;
+}
+
+body.path-local-training_architecture .trainingarchitecture-collapsible h4 {
+    cursor: pointer;
+}
+
+body.path-local-training_architecture .trainingarchitecture-collapsible div {
+    display: block;
+}
+
+body.path-local-training_architecture .trainingarchitecture-collapsible h4.active + div {
+    display: block;
+}
+
+body.path-local-training_architecture .trainingarchitecture-show-hide-table-title {
+    display: inline-block;
+    color: #0f6cbf;
+}
+
+body.path-local-training_architecture .trainingarchitecture-show-hide-table-title:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* body.path-local-training_architecture .trainingarchitecture-show-hide-table-title {
+    display: inline-block;
+    color: #0f6cbf;
+
+    &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+} */
+
+body.path-local-training_architecture .trainingarchitecture-search-input{
+    margin-bottom: 10px;
+    float: right;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    height: 35px;
+}
